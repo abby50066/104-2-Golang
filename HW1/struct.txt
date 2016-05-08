@@ -1,0 +1,103 @@
+type Result struct {
+	Response						`json:response`
+	Current_observation				`json:current_observation`
+}
+
+type Response struct {
+	Version					string	`json:version`
+	TermsofService			string	`json:termsofService`
+	Features						`json:features`
+} `json:response`
+type Features struct {
+	Conditions				int32	`json:conditions`
+} `json:features`
+
+type Current_observation struct {
+	Iamge							`json:image`
+	Display_location				`json:display_location`
+	Observation_location			`json:observation_location`
+	Estimated						`json:estimated`
+	Station_id				string	`json:station_id`
+	Observation_time		string	`json:observation_time`
+	Observation_time_rfc822	string	`json:observation_time_rfc822`
+	Observation_epoch		string	`json:observation_epoch`
+	Local_time_rfc822		string	`json:local_time_rfc822`
+	Local_epoch				string	`json:local_epoch`
+	Local_tz_short			string	`json:local_tz_short`
+	Local_tz_long			string	`json:local_tz_long`
+	Local_tz_offset			string	`json:local_tz_offset`
+	Weather					string	`json:weather`
+	Temperature_string		string	`json:temperature_string`
+	Temp_f					string	`json:temp_f`
+	Temp_c					string	`json:temp_c`
+	Relative_humidity		string	`json:relative_humidity`
+	Wind_string				string	`json:wind_string`
+	Wind_dir				string	`json:wind_dir`
+	Wind_degrees			string	`json:wind_degrees`
+	Wind_mph				float64	`json:wind_mph`
+	Wind_gust_mph			string	`json:wind_gust_mph`
+	Wind_kph				float64	`json:wind_kph`
+	Wind_gust_kph			string	`json:wind_gust_kph`
+	Pressure_mb				string	`json:pressure_mb`
+	Pressure_in				string	`json:pressure_in`
+	Pressure_trend			string	`json:pressure_trend`
+	Dewpoint_string			string	`json:dewpoint_string`
+	Dewpoint_f				int32	`json:dewpoint_f`
+	Dewpoint_c				int32	`json:dewpoint_c`
+	Heat_index_string		string	`json:heat_index_string`
+	Heat_index_f			int32	`json:heat_index_f`
+	Heat_index_c			int32	`json:heat_index_c`
+	Windchill_string		string	`json:windchill_string`
+	Windchill_f				string	`json:windchill_f`
+	Windchill_c				string	`json:windchill_c`
+	Feelslike_string		string	`json:feelslike_string`
+	Feelslike_f				string	`json:feelslike_f`
+	Feelslike_c				string	`json:feelslike_c`
+	Visibility_mi			string	`json:visibility_mi`
+	Visibility_km			string	`json:visibility_km`
+	Solarradiation			string	`json:solarradiation`
+	UV						string	`json:UV`
+	Precip_1hr_string		string	`json:precip_1hr_string`
+	Precip_1hr_in			string	`json:precip_1hr_in`
+	Precip_1hr_metric		string	`json:precip_1hr_metric`
+	Precip_today_string		string	`json:precip_today_string`
+	Precip_today_in			string	`json:precip_today_in`
+	Precip_today_metric		string	`json:precip_today_metric`
+	Icon					string	`json:icon`
+	Icon_url				string	`json:icon_url`
+	Forecast_url			string	`json:forecast_url`
+	History_url				string	`json:history_url`
+	Ob_url					string	`json:ob_url`
+	Nowcast					string	`json:nowcast`
+} `json:current_observation`
+type Image struct {
+	Url					string	`json:url`
+	Title				string	`json:title`
+	Link				string	`json:link`
+} `json:image`
+type Display_location struct {
+	Full				string	`json:full`
+	City				string	`json:city`
+	State				string	`json:state`
+	State_name			string	`json:state_name`
+	Country				string	`json:country`
+	Country_iso3166		string	`json:country_iso3166`
+	Zip					string	`json:zip`
+	Magic				string	`json:magic`
+	Wmo					string	`json:wmo`
+	Latitude			string	`json:latitude`
+	Longitude			string	`json:longitude`
+	Elevation			string	`json:elevation`
+} `json:display_location`
+type Observation_location struct {
+	Full				string	`json:full`
+	City				string	`json:city`
+	State				string	`json:state`
+	Country				string	`json:country`
+	Country_iso3166		string	`json:country_iso3166`
+	Latitude			string	`json:latitude`
+	Longitude			string	`json:longitude`
+	Elevation			string	`json:elevation`
+} `json:Observation_location`
+type Estimated struct {
+} `json:estimated`

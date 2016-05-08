@@ -1,0 +1,93 @@
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "conditions": 1
+  }
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Gushan District, Taiwan",
+		"city":"Gushan District",
+		"state":"",
+		"state_name":"Taiwan",
+		"country":"TW",
+		"country_iso3166":"TW",
+		"zip":"00000",
+		"magic":"1",
+		"wmo":"59554",
+		"latitude":"22.620000",
+		"longitude":"120.260000",
+		"elevation":"33.00000000"
+		},
+		"observation_location": {
+		"full":"é«éå¸èéå, Kaohsiung, Taiwan",
+		"city":"é«éå¸èéå, Kaohsiung",
+		"state":"Taiwan",
+		"country":"TAIWAN",
+		"country_iso3166":"TW",
+		"latitude":"22.621988",
+		"longitude":"120.321701",
+		"elevation":"200 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"IU53F0U78",
+		"observation_time":"Last Updated on April 18, 3:32 AM CST",
+		"observation_time_rfc822":"Mon, 18 Apr 2016 03:32:01 +0800",
+		"observation_epoch":"1460921521",
+		"local_time_rfc822":"Mon, 18 Apr 2016 03:32:05 +0800",
+		"local_epoch":"1460921525",
+		"local_tz_short":"CST",
+		"local_tz_long":"Asia/Shanghai",
+		"local_tz_offset":"+0800",
+		"weather":"Mostly Cloudy",
+		"temperature_string":"79.2 F (26.2 C)",
+		"temp_f":79.2,
+		"temp_c":26.2,
+		"relative_humidity":"88%",
+		"wind_string":"From the ENE at 1.0 MPH Gusting to 3.0 MPH",
+		"wind_dir":"ENE",
+		"wind_degrees":76,
+		"wind_mph":1.0,
+		"wind_gust_mph":"3.0",
+		"wind_kph":1.6,
+		"wind_gust_kph":"4.8",
+		"pressure_mb":"1012",
+		"pressure_in":"29.89",
+		"pressure_trend":"0",
+		"dewpoint_string":"75 F (24 C)",
+		"dewpoint_f":75,
+		"dewpoint_c":24,
+		"heat_index_string":"83 F (29 C)",
+		"heat_index_f":83,
+		"heat_index_c":29,
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"83 F (29 C)",
+		"feelslike_f":"83",
+		"feelslike_c":"29",
+		"visibility_mi":"4.3",
+		"visibility_km":"7.0",
+		"solarradiation":"0",
+		"UV":"0.0","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_mostlycloudy.gif",
+		"forecast_url":"http://www.wunderground.com/global/stations/59554.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=IU53F0U78",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=22.621988,120.321701",
+		"nowcast":""
+	}
+}
